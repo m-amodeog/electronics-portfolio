@@ -13,3 +13,7 @@ Digital counter implemented in VHDL on the Digilent Zybo Z7-10 (Xilinx Zynq-7000
 * **Clock:** 125 MHz onboard oscillator
 * **Inputs:** `BTN0` (count enable), `BTN1` (system reset)
 * **Outputs:** Pmod SSD connected to headers `JC` (segments A-D) and `JD` (segments E-G and cathode selector)
+
+## Hardware Setup & Demo
+
+![Zybo Z7-10 Hardware Setup](zybo_z7-10_photo_pmod.jpeg)
