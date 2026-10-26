@@ -17,3 +17,4 @@ Digital counter implemented in VHDL on the Digilent Zybo Z7-10 (Xilinx Zynq-7000
 ## Hardware Setup & Demo
 
 ![Zybo Z7-10 Hardware Setup](zybo_z7-10_photo_pmod.jpeg)
+![Testbench Simulation](practica1_basicaFotoTB.png)
