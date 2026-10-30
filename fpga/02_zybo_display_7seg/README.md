@@ -73,3 +73,5 @@ The project is designed following a strictly modular and structural approach (`t
 1. Clone this repository:
    ```bash
    git clone [https://github.com/YourUsername/vhdl-advanced-stopwatch-zybo.git](https://github.com/YourUsername/vhdl-advanced-stopwatch-zybo.git)
+  ![Testbench Simulation](../01_zybo_display_7seg/practica1_basicaFotoTB.png)
+   
