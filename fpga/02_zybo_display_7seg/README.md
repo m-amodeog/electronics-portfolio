@@ -83,5 +83,5 @@ To ensure the logical correctness of the design before hardware synthesis, a com
 1. Clone this repository:
    ```bash
    git clone [https://github.com/YourUsername/vhdl-advanced-stopwatch-zybo.git](https://github.com/YourUsername/vhdl-advanced-stopwatch-zybo.git)
-  ![Testbench Simulation](practica1_avanzado2_SimulacionFoto.png)
+
    
