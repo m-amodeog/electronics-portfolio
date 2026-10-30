@@ -67,11 +67,21 @@ The project is designed following a strictly modular and structural approach (`t
 | **Pmod SSD** | Multiple | `segs[6:0], cat[0]`| Maps to 7-segments and common cathode |
 
 ---
+## 🔬 Simulation & Verification
 
+To ensure the logical correctness of the design before hardware synthesis, a comprehensive testbench (`top_practica1_avanzada2_TB.vhd`) was developed. The behavioral simulation verifies critical edge cases and system stability, including:
+
+* **Modulo-60 Underflow/Overflow:** Seamless transitions between `00` and `59` when changing directions.
+* **Debouncer & Pause Logic:** Accurate toggle state retention without mechanical bouncing artifacts.
+* **Kill-Switch Activation:** Verification that `SWT1` disables physical outputs while maintaining the internal counting state.
+
+![Advanced 2 Testbench Simulation](practica1_avanzado2_SimulacionFoto.png)
+
+> **🎥 Hardware Demo:** Check out the physical implementation working on the Zybo Z7 board in the `advanced_counterVIDEO.mp4` file included in this repository.
 ## 🚀 How to Run the Project
 
 1. Clone this repository:
    ```bash
    git clone [https://github.com/YourUsername/vhdl-advanced-stopwatch-zybo.git](https://github.com/YourUsername/vhdl-advanced-stopwatch-zybo.git)
-  ![Testbench Simulation](../01_zybo_display_7seg/practica1_basicaFotoTB.png)
+  ![Testbench Simulation](practica1_avanzado2_SimulacionFoto.png)
    
